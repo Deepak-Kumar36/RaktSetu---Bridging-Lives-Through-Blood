@@ -1,0 +1,43 @@
+:root {
+  --brand-red: #b91c3c;
+   /* --brand-red: blue; */
+  --brand-red-dark: #7a1f2b;
+  /* --brand-red-dark: grey; */
+  --brand-pink-bg: #fff5f5;
+  /* --brand-pink-bg: black; */
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.06);
+  /* --shadow-soft: 0 4px 20px rgb(0, 0, 0); */
+  --radius-lg: 16px;
+} 
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: #212529;
+}
+
+.hover-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-soft);
+}
+
+.section-title {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+
+/* experiment */
+/* Bootstrap ke btn-danger ko override karna */
+/* .btn-danger {
+  background-color: #6f42c1 ;   /* Purple color */
+  /* border-color: #6f42c1 !important; */
+/* } */ 
+
+/* .btn-danger:hover 
+{
+  background-color: #5a32a3 !important;   /* Hover par darker purple */
+/* } */ 
+

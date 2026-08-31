@@ -1,0 +1,44 @@
+# =========================
+# React Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+
+# =========================
+# Spring Boot Backend
+# =========================
+new_backend_final + email/target/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+*.env
+application-local.properties
+application-local.yml
+
+# =========================
+# Java / IDE
+# =========================
+*.class
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# Eclipse / Spring Tool Suite
+.factorypath
+.project
+.classpath
+.settings/
+
+# Tomcat / IDE server configuration
+Servers/

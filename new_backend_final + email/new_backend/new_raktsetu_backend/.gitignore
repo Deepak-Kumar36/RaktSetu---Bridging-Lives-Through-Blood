@@ -1,0 +1,26 @@
+# --- Spring Boot / Maven / Gradle Build Files ---
+target/
+build/
+.mvn/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- IDE Specific Files (IntelliJ IDEA, Eclipse, VS Code) ---
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+.metadata/
+
+# --- Environment & Configuration Files ---
+.env
+application-local.properties
+application-secret.properties
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
